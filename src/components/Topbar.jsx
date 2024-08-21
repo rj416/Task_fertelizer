@@ -1,14 +1,12 @@
 import React from 'react';
-import { NotificationsNone, Settings, Language } from '@mui/icons-material';
+
 
 function Topbar() {
   return (
     <div className="bg-gray-800 text-white p-4 flex items-center justify-between">
       <h1 className="text-xl font-bold">Fertilizer Dashboard</h1>
       <div className="flex items-center space-x-4">
-        <NotificationsNone />
-        <Language />
-        <Settings />
+        
         <img
           src="https://cdn-icons-png.flaticon.com/512/147/147144.png"
           alt="User Avatar"
